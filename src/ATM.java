@@ -6,12 +6,13 @@ public class ATM {
     public ATM() {
         accounts = new ArrayList<>();
         // Add some demo accounts
-        accounts.add(new Account(1234, 1111, 500.0));
-        accounts.add(new Account(5678, 2222, 1000.0));
+        accounts.add(new Account(1234, 1111, 800.0));
+        accounts.add(new Account(5678, 2222, 10000.0));
     }
 
     public Account login(int accountNumber, int pin) {
-        for(Account acc : accounts) {
+        for(Account
+                acc : accounts) {
             if(acc.accountNumber == accountNumber && acc.pin == pin) {
                 return acc;
             }

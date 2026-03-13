@@ -31,6 +31,7 @@ public class Account {
 
     public void addTransaction(String info) {
         transactions.add(info);
+        // dailyWithdrawn(); // Remove or implement logic
     }
 
     public void printTransactions() {
