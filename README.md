@@ -1,5 +1,5 @@
-        Account number 1234, 
-        pin number 1111, 
+        Account number 1234
+        pin number 1111
         balance 800.0
         
 ATM Management System
